@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 
 import Routes from './routes/routes';
 
+import './App.css';
+
 function App() {
   useEffect(()=>{
     const script = document.createElement('script');

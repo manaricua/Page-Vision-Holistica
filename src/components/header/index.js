@@ -1,49 +1,51 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 
-import logo from './img/logo.png'
-
-const Header = () => {
+const Header = ({active}) => {
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Vision Holística</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-xl navbar-dark">
+      <a className="navbar-brand" href="#" style={{fontSize: "28px"}}>Visión Holística</a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Inicio</a>
+      <div className="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
+        <ul className="navbar-nav">
+        <li className={`nav-item ${active==="home" ? "active" : ""}`}>
+            <Link to="/" className="nav-link">Inicio</Link>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li className={`nav-item ${active==="about" ? "active" : ""}`}>
+            <a className="nav-link" href="#">Nosotros</a>
+          </li>
+          <li className="nav-item dropdown">
+            <a className="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Terapeutica
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Piscología</a>
-              <a class="dropdown-item" href="#">Acupuntura</a>
-              <a class="dropdown-item" href="#">Metodo Sanación Holistico</a>
-              <a class="dropdown-item" href="#">Masajes</a>
-              <a class="dropdown-item" href="#">Meditación</a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <Link to="/psicologia" className="dropdown-item">Piscología</Link>
+              <a className="dropdown-item" href="#">Acupuntura</a>
+              <a className="dropdown-item" href="#">Metodo Sanación Holistico</a>
+              <a className="dropdown-item" href="#">Masajes</a>
             </div>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li className="nav-item dropdown">
+            <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Practicas
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Taijiquan (taichichuan)</a>
-              <a class="dropdown-item" href="#">Qigong (chickung)</a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a className="dropdown-item" href="#">Taijiquan (taichichuan)</a>
+              <a className="dropdown-item" href="#">Qigong (chickung)</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Instructorado</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Instructorado Qigong</a>
+            
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Grupo de Lectura</a>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Grupo de Lectura</a>
           </li>
         </ul>
       </div>

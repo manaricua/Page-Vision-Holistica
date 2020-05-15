@@ -1,6 +1,11 @@
 /*---------------------
   Header
 -----------------------*/
+.navbar {
+	background-color: #1e4820 !important;
+	color: white !important;
+}
+
 @media (min-width: 1550px) {
 	.navbar-nav {
 		margin-right: 100px;
@@ -19,8 +24,9 @@
 	}
 }
 .dropdown-item{
-	padding: 12px 8px 0px 8px !important;
+	padding: 12px 8px 0px 20px !important;
 	font-weight: 400 !important;
+	text-transform: none !important;
 }
 
 
@@ -74,7 +80,7 @@
 	text-transform: uppercase;
 	color: #111111;
 	display: block;
-	padding: 32px 8px 30px;
+	padding: 24px 8px 24px;
 	position: relative;
 	font-family: "Quantico", sans-serif;
 }
@@ -85,7 +91,7 @@
 	bottom: 0;
 	height: 3px;
 	width: 100%;
-	background: #009603;
+	background: white;
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
