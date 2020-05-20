@@ -6,3 +6,25 @@
 .content-wrap {
     padding-bottom: 200px;
 }
+
+.box-shadow, .home-category-box {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.42);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.42);
+}
+
+.sangria {
+    text-indent: 1.5em;
+}
+
+.carousel-secondary {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

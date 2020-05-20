@@ -51,15 +51,15 @@ const Information = () => {
                             </p>
                         </div>
                         <p className="text information-des-text-3 mt-2">
-                            Esta Cosmovisión es la que sustenta el GRUPO DE LECTURA, LA PSICOLOGIA
-                            HOLÍSTICA Y también al MÉTODO DE SANACION HOLÍSTICO
-                            Nuestra perspectiva VISIÓN HOLÍSTICA concibe que un proceso de
-                            Autoconocimiento que se asienta en los referenciales del Cuarto Camino conjugado con
-                            un movimiento energético propio de la antigua Tradición China, (ya sea bajo la
-                            modalidad de Chi Kung o Acupuntura), posibilita al Hombre pequeños pero
-                            continuados giros ascendentes de Consciencia que posibilitan OTRA COMPRENSIÓN
-                            respecto a su REALIDAD SUFRIENTE.
-                            </p>
+                        Esta Cosmovisión es la que sustenta el GRUPO DE LECTURA, LA PSICOLOGIA
+                        HOLÍSTICA Y también al MÉTODO DE SANACION HOLÍSTICO
+                        Nuestra perspectiva VISIÓN HOLÍSTICA concibe que un proceso de
+                        Autoconocimiento que se asienta en los referenciales del Cuarto Camino conjugado con
+                        un movimiento energético propio de la antigua Tradición China, (ya sea bajo la
+                        modalidad de Chi Kung o Acupuntura), posibilita al Hombre pequeños pero
+                        continuados giros ascendentes de Consciencia que posibilitan OTRA COMPRENSIÓN
+                        respecto a su REALIDAD SUFRIENTE.
+                        </p>
                     </div>
                 </div>
             </div>

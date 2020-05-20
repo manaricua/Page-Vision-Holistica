@@ -7,28 +7,16 @@
 
 .carousel-item-img-1 {
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/frente.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 .carousel-item-img-2 {
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/home/slider/SLIDER2.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 .carousel-item-img-3 {
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/home/slider/SLIDER3.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 .carousel-item-img-4 {
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/home/slider/SLIDER4.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
 }
 
 .home-img-description {
@@ -42,6 +30,12 @@
 @media (min-width: 992px) {
     .home-text-description {
         padding-right: 20px;
+    }
+    .video-description {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 }
 
@@ -62,6 +56,8 @@
     height: 200px;
     margin: 15px;
     background-color: green;
+    border: solid;
+    background-size: 100% 100%;
 }
 
 .home-category-box h1 {
@@ -70,8 +66,36 @@
     bottom: 0;
     font-size: 28px;
     text-align: center;
+    color: white;
+    
 }
 
+/* Buttons */
+.home-buttons a{
+    text-decoration: none;
+    color: black;
+}
+.button-psico {
+    background-image: url('../../assets/home/buttonPsico.JPG');
+}
+.button-acup {
+    background-image: url('../../assets//home/buttonAcup.jpg');
+}
+.button-metod {
+    background-image: url('../../assets/home/buttonMetod.jpg');
+}
+.button-masaj {
+    background-image: url('../../assets/home/buttonMasaj.jpg');
+}
+.button-taichi {
+    background-image: url('../../assets/home/buttonTaichi.jpg');
+}
+.button-qui {
+    background-image: url('../../assets/home/buttonQui.jpg');
+}
+.button-lect {
+    background-image: url('../../assets//home/buttonLect.jpg');
+}
 /* OLD Index */
 /*
 .carousel-item {

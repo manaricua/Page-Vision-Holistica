@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 
-import descrptionImg from '../../assets/home/DESCRIPTION.JPG';
+import video from '../../assets/home/video.mp4';
 
 import './style.css';
 
@@ -14,7 +14,7 @@ const Home = () => {
         <div className="page-container">
             <div className="content-wrap">
                 < Header active="home"/>
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" className="carousel slide box-shadow" data-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -44,8 +44,8 @@ const Home = () => {
                         <span className="sr-only">Next</span>
                     </a>
                 </div>
-                <div className="container" style={{marginTop: "100px", marginBottom: "100px"}}>
-                    <div className="row no-gutters" style={{marginBottom: "100px"}}>
+                <div className="container mt-5" style={{marginBottom: "100px"}}>
+                    <div className="row no-gutters">
                         <div className="col-12 col-lg-6">
                             <div className="home-container-description">
                                 <h1 className="mb-4">¿Qué es Visión Holística?</h1>
@@ -60,53 +60,72 @@ const Home = () => {
                                     Ser Humano (físico, mental, emocional, espiritual y energético).
                                 </p>
                                 </div>
-                                <Link to="/vision-holistica" className="btn btn-dark text" style={{backgroundColor: "#1e4820", color: "white"}}>Más Información</Link>
+                                <Link to="/vision-holistica" className="btn btn-dark text box-shadow" style={{backgroundColor: "#1e4820", color: "white"}}>Más Información</Link>
                             </div>
                         </div>
                         <div className="col-12 col-lg-6">
-                            <img className="home-img-description" src={descrptionImg} alt="Description"/>
+                        <video width="100%" height="auto" controls className="video-description">
+                            <source src={video} type="video/mp4" />
+                        </video>
                         </div>
                     </div>
-                    <div className="row no-gutters">
+                    <h1 className="text-center mt-4">Categorias</h1>
+                    <div className="row no-gutters home-buttons">
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <div className="home-category-box">
+                            <Link to="/psicologia">
+                            <div className="home-category-box button-psico">
                                 <h1>Psicología</h1>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <div className="home-category-box">
+                            <Link to="/acupuntura">
+                            <div className="home-category-box button-acup">
                                 <h1>Acupuntura</h1>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <div className="home-category-box">
+                            <Link to="/metodo-sanacion-holistico">
+                            <div className="home-category-box button-metod">
                                 <h1>Metodo Sanación Holístico</h1>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <div className="home-category-box">
+                            <Link to="/masajes">
+                            <div className="home-category-box button-masaj">
                                 <h1>Masajes</h1>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <div className="home-category-box">
+                            <Link to="/taijiquan">
+                            <div className="home-category-box button-taichi">
                                 <h1>Taijiquan (taichichuan)</h1>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <div className="home-category-box">
+                            <Link to="/qigong">
+                            <div className="home-category-box button-qui">
                                 <h1>Qigong (chickung)</h1>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
+                            <Link to="/instructorado">
                             <div className="home-category-box">
                                 <h1>Instructorado</h1>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <div className="home-category-box">
+                            <Link to="/grupo-lectura">
+                            <div className="home-category-box button-lect">
                                 <h1>Grupo de Lectura</h1>
                             </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

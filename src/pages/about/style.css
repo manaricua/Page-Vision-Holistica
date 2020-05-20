@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+    .about-perfil-img {
+        width: 50%;
+    }
+}
+.about-perfil-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
