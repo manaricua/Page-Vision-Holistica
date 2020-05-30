@@ -24,7 +24,7 @@ const Header = ({active}) => {
             <a className="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Terapeutica
             </a>
-            <div className="dropdown-menu btn btn-dark" aria-labelledby="navbarDropdown">
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link to="/psicologia" className="dropdown-item">Piscología</Link>
               <a className="dropdown-item" href="/acupuntura">Acupuntura</a>
               <a className="dropdown-item" href="/metodo-sanacion-holistico">Metodo Sanación Holistico</a>

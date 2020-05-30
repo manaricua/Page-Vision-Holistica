@@ -60,11 +60,11 @@ const Home = () => {
                                     Ser Humano (físico, mental, emocional, espiritual y energético).
                                 </p>
                                 </div>
-                                <Link to="/vision-holistica" className="btn btn-dark text box-shadow" style={{backgroundColor: "#1e4820", color: "white"}}>Más Información</Link>
+                                <Link to="/vision-holistica" className="btn btn-dark text box-shadow py-1 px-2" style={{backgroundColor: "#1e4820", color: "white"}}>Seguir Leyendo</Link>
                             </div>
                         </div>
                         <div className="col-12 col-lg-6">
-                        <video width="100%" height="auto" controls className="video-description">
+                        <video width="100%" height="auto" controls className="video-description box-shadow">
                             <source src={video} type="video/mp4" />
                         </video>
                         </div>
