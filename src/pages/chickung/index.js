@@ -35,14 +35,14 @@ const Chickung = () => {
                     </a>
                 </div>
                 <div className="container text">
-                    <h1 className="mt-4 text-center">QI GONG (CHI KUNG)</h1>
+                    <h1 className="mt-4 text-center mb-4">QI GONG (CHI KUNG)</h1>
                     <p className="sangria text-justify">
                         En una primera traducción se dice que es la MAESTRIA EN EL MOVIMIENTO
                         DEL QI (energía vital). Tomando como referencial el Hombre como
                         Microcosmos inmerso en el Macrocosmos se amplía la dimensión y los
                         alcances de la práctica, lo que implica:
                     </p>
-                    <p className="sangria text-justify">
+                    <p className="pl-5 text-justify">
                         <span style={{fontSize: "80px"}}>.  </span> El cultivo de la INTENCIÓN para generar ese MOVIMIENTO
                         CONSCIENTE HACIA LA MAESTRÍA, que también involucra la
                         posibilidad de expansión hacia una disponibilidad creativa,
@@ -50,11 +50,10 @@ const Chickung = () => {
                         Vital para mantener la FORMA y purificándola para ese retorno a la NO
                         FORMA.
                     </p>
-                    <p className="sangria text-justify">
+                    <p className="pl-5 text-justify">
                         <span style={{fontSize: "80px"}}>.  </span> La capacidad de conectar con el NO MOVIMIENTO EXTERNO para
                         desarrollar la contemplación, observar el MOVIMIENTO INTERNO,
                         percibir esa UNION CON EL TODO.
-                        enfermedades).
                     </p>
                     <p className="sangria text-justify">
                         Desde la Cosmovisión de La Tradición Oriental se trata de la posibilidad de
@@ -71,7 +70,7 @@ const Chickung = () => {
                         consciente del Qi.
                     </p>
                     <h2 className="mt-5 text-center">Escuela WUWEI MDP – Taijiquan Qigong</h2>
-                    <img src={logo} class="taichi-logo mb-5"/>
+                    <img src={logo} class="logo-practice mb-5 box-shadow"/>
                 </div>
             </div>
             <Footer />

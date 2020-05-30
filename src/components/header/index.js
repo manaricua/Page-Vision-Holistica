@@ -14,37 +14,37 @@ const Header = ({active}) => {
 
       <div className="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
         <ul className="navbar-nav">
-        <li className={`nav-item ${active==="home" ? "active" : ""}`}>
+        <li className={`nav-item btn btn-dark ${active==="home" ? "active" : ""}`}>
             <Link to="/" className="nav-link">Inicio</Link>
           </li>
-          <li className={`nav-item ${active==="about" ? "active" : ""}`}>
+          <li className={`nav-item btn btn-dark ${active==="about" ? "active" : ""}`}>
             <a className="nav-link" href="/nosotros">Nosotros</a>
           </li>
-          <li className={`nav-item dropdown ${active==="terapeutic" ? "active" : ""}`}>
+          <li className={`nav-item dropdown btn btn-dark ${active==="terapeutic" ? "active" : ""}`}>
             <a className="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Terapeutica
             </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div className="dropdown-menu btn btn-dark" aria-labelledby="navbarDropdown">
               <Link to="/psicologia" className="dropdown-item">Piscología</Link>
               <a className="dropdown-item" href="/acupuntura">Acupuntura</a>
               <a className="dropdown-item" href="/metodo-sanacion-holistico">Metodo Sanación Holistico</a>
               <a className="dropdown-item" href="/masajes">Masajes</a>
             </div>
           </li>
-          <li className={`nav-item dropdown ${active==="practice" ? "active" : ""}`}>
+          <li className={`nav-item dropdown btn btn-dark ${active==="practice" ? "active" : ""}`}>
             <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Practicas
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <a className="dropdown-item" href="/taichichuan">Taijiquan (taichichuan)</a>
-              <a className="dropdown-item" href="/chickung">Qigong (chickung)</a>
+              <a className="dropdown-item" href="/chikung">Qigong (chikung)</a>
             </div>
           </li>
-          <li className="nav-item">
+          <li className="nav-item btn btn-dark">
             <a className="nav-link" href="#">Instructorado Qigong</a>
             
           </li>
-          <li className={`nav-item ${active==="lecture" ? "active" : ""}`}>
+          <li className={`nav-item btn btn-dark ${active==="lecture" ? "active" : ""}`}>
             <a className="nav-link" href="/grupo-lectura">Grupo de Lectura</a>
           </li>
         </ul>

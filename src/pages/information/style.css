@@ -12,84 +12,9 @@
     text-align: center;
     color: black;
 }
-
-@media (min-width: 992px) {
-    .information-title {
-        font-size: 36px;
-    }
-    .information-des-img-1 div{
-        margin: 0 0 20px 20px;
-    }
-    .information-des-img-2 div {
-        margin-right: 10px;
-    }
-    .information-des-text-1, .information-des-text-3 {
-        padding-right: 20px !important;
-    }
-    .information-des-text-2 {
-        padding: 20px 0 0 20px !important;
-    }
+.info-carousel-item-img-1 {
+    background: url('../../assets/information/slider1.jpg');
 }
-@media (max-width: 991px) {
-    .information-des-img-1 div {
-        min-height: 300px;
-    }
-    .information-des-img-2 div {
-        min-height: 300px;
-    }
-    .information-title {
-        font-size: 28px;
-    }
-    .information-description p {
-        font-size: 14px;
-    }
-    .information-description p {
-        margin: 20px 0px;
-    }
-    .information-des-text-1 {
-        order: 1;
-    }
-    .information-des-img-1 {
-        order: 2;
-    }
-    .information-des-text-2 {
-        order: 3;
-    }
-    .information-des-img-2 {
-        order: 4;
-    }
-    .information-des-text-3 {
-        order: 5;
-    }
-    .information-des-img-3 {
-        order: 6;
-    }
+.info-carousel-item-img-2 {
+    background: url('../../assets/information/slider2.jpg');
 }
-
-.information-des-img-1 div {
-    height: 100%;
-    height: 100%;
-    background-image: url('../../assets/information/acupuntura.jpg') ;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-}
-
-.information-des-img-2 div {
-    height: 100%;
-    height: 100%;
-    background-image: url('../../assets/information/description2.JPG') ;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
-}
-/*
-.information-des-img-3 div {
-    height: 100%;
-    min-height: 300px;
-    margin: 0 25%;
-    background-image: url('../../assets/manos.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center none;
-}*/

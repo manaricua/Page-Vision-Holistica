@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/header';
 import Footer from '../../components/footer';
@@ -31,13 +32,13 @@ const MetSanHol = () => {
                     </a>
                 </div>
                 <div className="container text">
-                    <h1 className="mt-5 text-center">¿En qué consiste el METODO DE SANACIÓN HOLÍSTICO?</h1>
+                    <h1 className="mt-5 text-center mb-5">¿En qué consiste el METODO DE SANACIÓN HOLÍSTICO?</h1>
                     <p className="sangria text-justify">
                         Es un proceso terapéutico enfocado fundamentalmente en los desequilibrios de carácter
                         PSÍQUICO-EMOCIONAL. Conjuga:
                     </p>
                     <p className="text-justify">
-                        - PSICOLOGÍA HOLÍSTICA. A través de la PALABRA se busca la ampliación de la consciencia
+                        - <Link to="/psicologia" style={{color: "rgb(63, 0, 99)"}}>PSICOLOGÍA HOLÍSTICA</Link>. A través de la PALABRA se busca la ampliación de la consciencia
                         respecto del conflicto presente del consultante, promoviendo la observación del mundo
                         interno y las dimensiones que lo constituyen (esencia, consciencia, cuerpo emocional y
                         mental). La implementación de diversas técnicas como la MEDITACIÓN y la
@@ -46,9 +47,9 @@ const MetSanHol = () => {
                         silencio, la paz, la vacuidad, la presencia plena.
                     </p>
                     <p className="text-justify">
-                        - ACUPUNTURA. A través de esta herramienta de la Medicina Tradicional China, se trabaja en
+                        - <Link to="/acupuntura" style={{color: "rgb(63, 0, 99)"}}>ACUPUNTURA</Link>. A través de esta herramienta de la Medicina Tradicional China, se trabaja en
                         el origen energético de la manifestación sufriente. Esta técnica actúa en una profundidad, que
-                        por nuestro actual estado de consciencia, no nos es sencillo acceder por vía de la palabra y la
+                        por nuestro actual estado de consciencia, no es sencillo acceder por vía de la palabra y la
                         observación
                     </p>
                     <p className="sangria text-justify">
@@ -58,16 +59,6 @@ const MetSanHol = () => {
                         posibilitando no una eliminación de éste, sino una trascendencia por vía del
                         autoconocimiento.
                     </p>
-                    <div className="text-right mt-5">
-                        <h5>PROFESIONAL</h5>
-                        <p className="mb-0">
-                            María Mendiburu - Lic. en Psicología - Mat. 47339.
-                        </p>
-                        <p>
-                            Terapeuta en Medicina Tradicional China e
-                            instructora de Tai Chi Chuan y Chi Kung.
-                        </p>
-                    </div>
                 </div>
             </div>
             <Footer />

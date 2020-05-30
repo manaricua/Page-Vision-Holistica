@@ -35,25 +35,22 @@ const Acupuncture = () => {
                     <p className="sangria text-justify">
                         Son herramientas de la Medicina Tradicional China cuyo origen puede remontarse a los
                         4.000 años AC. Uno de sus conceptos esenciales es el Qi (soplo o energía) fundamento
-                        del Cosmos y del Hombre;. El Qi, fluye a lo largo de canales energéticos siendo
+                        del Cosmos y del Hombre. El Qi fluye a lo largo de canales energéticos siendo
                         responsable de la Salud-Enfermedad tanto en el campo Físico como en el Psíquico-
                         Emocional.
                     </p>
                     <p className="sangria text-justify">
-                        Como sucede con todos los saberes ancestrales, éstos con el paso del tiempo, van
+                        Como sucede con todos los saberes ancestrales, éstos con el paso del tiempo van
                         evolucionando o involucionado, según la perspectiva de quién observa.
                     </p>
                     <p className="sangria text-justify">
                         Es necesario explicitar que Visión Holística toma la acupuntura en su dimensión
                         ancestral, ligada a la Tradición. Trabaja en el referencial más antiguo de canal
                         energético y no en la dimensión actual de terminaciones nerviosas investigada para el
-                        alivio del dolor.
-                    </p>
-                    <p className="sangria text-justify mb-5">
-                        Visión Holística toma a la Acupuntura y a la Moxibustión como herramientas sagradas
+                        alivio del dolor. Las considera herramientas sagradas
                         de sanación, que al ser capaz de tocar la materia primera fundante del Cosmos (energía)
                         puede llegar al Corazón del Espíritu del Hombre para que éste pueda conectar con su
-                        Tao, es decir su Camino, su Misión en el plan universal.
+                        Tao, es decir su Camino, su Misión en el Plan Universal.
                     </p>
                 </div>
             </div>

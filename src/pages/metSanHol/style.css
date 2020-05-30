@@ -1,6 +1,6 @@
 .metsanhol-carousel-item-img-1 {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/metsanhol/slider1.jpg');
+    background: url('../../assets/metsanhol/slider1.jpg');
 }
 .metsanhol-carousel-item-img-2 {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/metsanhol/slider2.jpg');
+    background: url('../../assets/metsanhol/slider2.jpg');
 }

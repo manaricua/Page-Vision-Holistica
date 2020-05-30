@@ -45,15 +45,15 @@ const Taichichuan = () => {
                     </a>
                 </div>
                 <div className="container text">
-                    <h1 className="mt-4 text-center">TAIJIQUAN (Tai Chi Chuan)</h1>
+                    <h1 className="mt-4 text-center mb-4">TAIJIQUAN (Tai Chi Chuan)</h1>
                     <p className="sangria text-justify">
                         Es una práctica marcial y terapéutica que integra el equilibrio de los cuerpos
                         físico, mental y energético.
                     </p>
                     <p className="sangria text-justify">
                         A partir del registro en la circulación del Qi (bio energía, energía vital) se
-                        genera la disminución de patologías articulares, del sistema nervioso, y la
-                        disminución de los estados de estrés que ocasionan enfermedad adquiriendo a
+                        genera la disminución de patologías articulares, del sistema nervioso;
+                        por otro lado disminuye los estados de estrés que ocasionan enfermedad adquiriendo a
                         su vez mayor disponibilidad física y respiratoria.
                     </p>
                     <p className="sangria text-justify">
@@ -77,7 +77,7 @@ const Taichichuan = () => {
                         La Escuela Kai Men Mar del Plata es representante de la Asociación Kai Men
                         de Kung Fu, con Núcleo Central en Buenos Aires.
                     </p>
-                    <img src={logo} class="taichi-logo mb-5"/>
+                    <img src={logo} class="logo-practice mb-5 box-shadow"/>
                 </div>
             </div>
             <Footer />

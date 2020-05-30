@@ -1,22 +1,17 @@
 /* Slider */
 
-.carousel-item {
-    min-height: 700px;
-    max-height: 90vh;
-}
-
 .carousel-item-img-1 {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/frente.jpg');
+    background: url('../../assets/home/slider/SLIDER1.JPG');
 }
 .carousel-item-img-2 {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/home/slider/SLIDER2.JPG');
+    background: url('../../assets/home/slider/SLIDER2.JPG');
 }
 .carousel-item-img-3 {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/home/slider/SLIDER3.JPG');
+    background: url('../../assets/home/slider/SLIDER3.JPG');
 }
 
 .carousel-item-img-4 {
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/home/slider/SLIDER4.JPG');
+    background: url('../../assets/home/slider/SLIDER4.JPG');
 }
 
 .home-img-description {
@@ -94,7 +89,7 @@
     background-image: url('../../assets/home/buttonQui.jpg');
 }
 .button-lect {
-    background-image: url('../../assets//home/buttonLect.jpg');
+    background-image: url('../../assets/home/buttonLect.jpg');
 }
 /* OLD Index */
 /*
@@ -103,19 +98,19 @@
 }
 
 .first-slide{
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/visionholistica/frente-verano.jpg');
+    background: url('../../assets/visionholistica/frente-verano.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .second-slide{
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/psicologia/P1110627.JPG');
+    background: url('../../assets/psicologia/P1110627.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 .third-slide{
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../../assets/quienesomos/P1110644.JPG');
+    background: url('../../assets/quienesomos/P1110644.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

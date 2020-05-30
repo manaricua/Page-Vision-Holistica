@@ -24,7 +24,7 @@ const Routes = () => {
                 <Route path='/metodo-sanacion-holistico' exact component={MetSanHol}/>
                 <Route path='/masajes' exact component={Massagge}/>
                 <Route path='/taichichuan' exact component={Taichichuan}/>
-                <Route path='/chickung' exact component={Chickung}/>
+                <Route path='/chikung' exact component={Chickung}/>
                 <Route path='/grupo-lectura' exact component={Lecture}/>
                 <Route path='/nosotros' exact component={About}/>
             </Switch>

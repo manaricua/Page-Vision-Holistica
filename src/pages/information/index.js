@@ -11,6 +11,26 @@ const Information = () => {
         <div className="page-container">
             <div className="content-wrap">
                 < Header active="information"/>
+                <div id="carouselExampleIndicators" className="carousel slide box-shadow carousel-secondary" data-ride="carousel">
+                    <ol className="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div className="carousel-inner">
+                        <div className="carousel-item active info-carousel-item-img-1">
+                        </div>
+                        <div className="carousel-item info-carousel-item-img-2">
+                        </div>
+                    </div>
+                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
+                    </a>
+                </div>
                 <div className="information-description mb-4 mt-5">
                     
                     <div className="row no-gutters">
@@ -43,13 +63,13 @@ const Information = () => {
                             Se basa en la creencia de que el ser humano necesita un método de autoconocimiento
                             para el Despertar.
                             </p>
-                            <p className="mb-2 mt-0 text" style={{fontStyle: "italic"}}>
+                        </div>
+                        <p className="mb-2 mt-5 text" style={{fontStyle: "italic"}}>
                             …Es por la vía de la observación y de la comprensión de las funciones físicas,
                             emocionales, mentales y de aquéllos mecanismos profundos que constituyen nuestra
                             personalidad, que se abre la posibilidad de su trascendencia y la conexión con
                             aquellos aspectos más sutiles olvidados de nosotros mismos…
-                            </p>
-                        </div>
+                        </p>
                         <p className="text information-des-text-3 mt-2">
                         Esta Cosmovisión es la que sustenta el GRUPO DE LECTURA, LA PSICOLOGIA
                         HOLÍSTICA Y también al MÉTODO DE SANACION HOLÍSTICO

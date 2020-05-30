@@ -36,14 +36,13 @@ const Psicology = () => {
                     <p className="sangria text-justify">
                         Es importante mencionar que esta Rama de Sanación está fuertemente atravesada por los
                         referenciales que atraviesan a VISION HOLISTICA como perspectiva a través de la cual se concibe al
-                        Ser Humano, al Cosmos y a la Sanación: El Cuarto Camino y la Medicina Tradicional China (ABRE
-                        enlace A MAS INFORMACION)
+                        Ser Humano, al Cosmos y a la Sanación: <Link to="/vision-holistica" style={{color: "rgb(63, 0, 99)"}}> El Cuarto Camino</Link> y la <Link to="/vision-holistica" style={{color: "rgb(63, 0, 99)"}}> Medicina Tradicional China.</Link>
                     </p>
                     <p className="sangria text-justify">
                         El “HOLOS” de nuestra psicología considera la MULTIDIMENSIÓN en la que habita el Ser: Cuerpo
                         Físico, Emocional, Mental, Espiritual y Energético.
                     </p>
-                    <h3 className="mt-2"><u>Ejes del Proceso Terapéutico</u></h3>
+                    <h3 className="mt-4 mb-4"><u>Ejes del Proceso Terapéutico</u></h3>
                     <p>- La palabra, de poder catártico y de comprensión dialéctica.</p>
                     <p>- La observación contemplativa de Los Cuerpos (físico, emocional, metal, espiritual)</p>
                     <p>- Técnicas de Meditación-Relajación con instrumentos vibracionales (cuenco tibetano, Didgeridoo)</p>
@@ -53,7 +52,7 @@ const Psicology = () => {
                         interna.
                     </p>
                     <p className="text-center my-5" style={{fontStyle: "italic"}}>
-                        A menudo sucede que nos escudamos tras la queja, situando la causa de nuestro padecimiento
+                        "A menudo sucede que nos escudamos tras la queja, situando la causa de nuestro padecimiento
                         en factores externos… esto en realidad es ilusorio dado que la queja es una posición subjetiva
                         que alivia nuestro ego y alimenta la comodidad, no resolviendo el conflicto….
                         Comenzar a caminar por un camino de despertar es hermoso porque nos reconecta con nuestra
@@ -63,7 +62,7 @@ const Psicology = () => {
 
                         Es maravillosa y sufriente la comprensión de que somos los únicos creadores de nuestra
 
-                        realidad interna
+                        realidad interna."
                     </p>
                     <p className="sangria text-justify">
                         Desde esta área, se trabaja para que el consultante pueda reconectarse con su naturaleza
@@ -71,23 +70,15 @@ const Psicology = () => {
                         la presencia plena, que muchas veces son olvidados o tapados por la fuerza de las emociones
                         negativas y los mecanismos rumiantes propios del campo mental.
                     </p>
-                    <p className="text-center" style={{fontStyle: "italic"}}>
-                        Vivimos siempre en las mismas provincias interiores, desconociendo muchas otras de nuestro Ser
+                    <p className="mb-0 text-center" style={{fontStyle: "italic"}}>
+                        Vivimos siempre en las mismas provincias interiores,
+                    </p>
+                    <p className="text-center" style={{fontStyle: "italic"}}>desconociendo muchas otras de nuestro Ser.
                     </p>
                     <p className="mb-5 sangria text-justify">
                         Si el consultante lo requiere, en el mismo encuadre de la sesión, puede trabajar con su cuerpo
-                        energético a través de la <Link to="acupuntura">Acupuntura</Link>
+                        energético a través de la <Link to="/acupuntura" style={{color: "rgb(63, 0, 99)"}}>Acupuntura.</Link>
                     </p>
-                    <div className="text-right mt-5">
-                        <h5>PROFESIONAL</h5>
-                        <p className="mb-0">
-                            María Mendiburu - Lic. en Psicología - Mat. 47339.
-                        </p>
-                        <p>
-                            Terapeuta en Medicina Tradicional China e
-                            instructora de Tai Chi Chuan y Chi Kung.
-                        </p>
-                    </div>
                 </div>
             </div>
             <Footer />

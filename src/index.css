@@ -11,7 +11,7 @@ body {
     font-size: 28px !important;
   }
   p {
-    line-height : 35px;
+    line-height : 40px;
   }
 }
 @media (max-width: 991px) {

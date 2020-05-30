@@ -23,10 +23,10 @@ const Home = () => {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active carousel-item-img-1">
-                            <h1 style={{position: "relative", top: "20px", color: "whitesmoke", textAlign: "center"}}> Titulo descriptivo</h1>
+                            {/*<h1 style={{position: "relative", top: "20px", color: "black", textAlign: "center"}}>Espacio de sanación integral</h1>
                             <p style={{position: "relative", top: "20px", color: "whitesmoke", textAlign: "center", fontSize: "18px"}}>
-                                Un espacio de conocimiento y crecimiento personal.
-                            </p>
+                                
+                            </p> */}
                         </div>
                         <div className="carousel-item carousel-item-img-2">
                         </div>
@@ -69,7 +69,7 @@ const Home = () => {
                         </video>
                         </div>
                     </div>
-                    <h1 className="text-center mt-4">Categorias</h1>
+                    <h1 className="text-center mt-4">Áreas</h1>
                     <div className="row no-gutters home-buttons">
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/psicologia">
@@ -109,7 +109,7 @@ const Home = () => {
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/qigong">
                             <div className="home-category-box button-qui">
-                                <h1>Qigong (chickung)</h1>
+                                <h1>Qigong (chikung)</h1>
                             </div>
                             </Link>
                         </div>

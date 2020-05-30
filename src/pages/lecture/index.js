@@ -12,28 +12,28 @@ const Lecture = () => {
         <div className="page-container">
             <div className="content-wrap">
                 < Header active="lecture"/>
-                <img src={slider1} className="lecture-img"/>
+                <img src={slider1} className="lecture-img box-shadow"/>
                 <div className="container text">
-                    <h1 className="mt-4 text-center">¿En Qué Consiste El Cuarto Camino?</h1>
+                    <h1 className="mt-4 text-center mb-4">¿En qué consiste El Cuarto Camino?</h1>
                     <p className="sangria text-justify">
                         EL CUARTO CAMINO (o CUARTA VÍA) es un sistema metafísico, cosmológico y
                         filosófico introducido en Occidente por George Gurdjieff y Piotr Demiánovich
                         Ouspenski.
                     </p>
-                    <p className="sangria text-justify">
+                    <p className="sangria text-justify mb-0">
                         Se basa en la creencia de que el ser humano necesita un método para despertar a
                         través de:
                     </p>
-                    <p className="sangria text-justify">
+                    <p className="sangria text-justify mb-0">
                         <span style={{fontSize: "80px"}}>.  </span> Autoconocimiento
                     </p>
-                    <p className="sangria text-justify">
+                    <p className="sangria text-justify mb-0">
                         <span style={{fontSize: "80px"}}>.  </span> Atención Consciente
                     </p>
-                    <p className="sangria text-justify">
-                        <span style={{fontSize: "80px"}}>.  </span> Sobre todo del “EL RECUERDO DE SÍ“.
+                    <p className="sangria text-justify mb-0">
+                        <span style={{fontSize: "80px"}}>.  </span> El Recuerdo de Si
                     </p>
-                    <p className="sangria text-justify">
+                    <p className="sangria text-justify mt-4">
                         El Camino busca despertar del sueño que el estado de vigilia supone, esto es, del
                         condicionamiento externo de nuestro mundo interno.
                     </p>
@@ -48,17 +48,15 @@ const Lecture = () => {
                     </p>
                     <p className="text-center mb-0" style={{fontStyle: "italic"}}>
                         “El ser humano solo no puede, las fuerzas de la mecanicidad son demasiado fuertes.
-                        es necesario de un otro, de un grupo”.
+                    </p>
+                    <p className="text-center mb-0" style={{fontStyle: "italic"}}>
+                        Es necesario de un otro, de un grupo.
                     </p>                        
                     <p className="text-center" style={{fontStyle: "italic"}}>
                         De aquí la importancia del grupo de lectura, trabajar juntos en vías de un despertar.”
                     </p>
                     <p className="mt-5 sangria text-justify">
-                        Se trata de un grupo de lectura de carácter horizontal coordinado por la Lic Maria
-                        Mendiburu.
-                    </p>
-                    <p className="sangria text-justify">
-                        El grupo trabaja en dos dimensiones:
+                        Se trata de un grupo de lectura de carácter horizontal que trabaja en dos dimensiones:
                     </p>
                     <p className="pl-4  text-justify">
                         <span style={{fontSize: "80px"}}>.  </span>
@@ -66,7 +64,7 @@ const Lecture = () => {
                             acercamiento a los conceptos esenciales a partir de la lectura a la letra de las
                             fuentes primarias.
                     </p>
-                    <p className="pl-4 text-justify">
+                    <p className="pl-4 text-justify" style={{marginBottom: "77px"}}>
                         <span style={{fontSize: "80px"}}>.  </span>
                             Por otro y simultáneamente un aspecto vivencial, ya que la dinámica de un
                             grupo nos despierta inexorablemente nuestro mundo interno volviéndose
