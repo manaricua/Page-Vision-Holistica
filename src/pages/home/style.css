@@ -91,6 +91,14 @@
 .button-lect {
     background-image: url('../../assets/home/buttonLect.jpg');
 }
+.button-instru {
+    background-image: url('../../assets/home/buttonInstru.jpg');
+    
+}
+.button-instru h1 {
+    
+}
+
 /* OLD Index */
 /*
 .carousel-item {

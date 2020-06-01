@@ -75,7 +75,7 @@ const Psicology = () => {
                     </p>
                     <p className="text-center" style={{fontStyle: "italic"}}>desconociendo muchas otras de nuestro Ser.
                     </p>
-                    <p className="mb-5 sangria text-justify">
+                    <p className="sangria text-justify">
                         Si el consultante lo requiere, en el mismo encuadre de la sesión, puede trabajar con su cuerpo
                         energético a través de la <Link to="/acupuntura" style={{color: "rgb(63, 0, 99)"}}>Acupuntura.</Link>
                     </p>

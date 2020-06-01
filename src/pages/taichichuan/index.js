@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Header from '../../components/header';
 import Footer from '../../components/footer';
@@ -77,7 +76,7 @@ const Taichichuan = () => {
                         La Escuela Kai Men Mar del Plata es representante de la Asociación Kai Men
                         de Kung Fu, con Núcleo Central en Buenos Aires.
                     </p>
-                    <img src={logo} class="logo-practice mb-5 box-shadow"/>
+                    <img src={logo} class="logo-practice mb-3 box-shadow" alt="logo"/>
                 </div>
             </div>
             <Footer />

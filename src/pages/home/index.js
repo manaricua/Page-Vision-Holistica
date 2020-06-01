@@ -44,7 +44,7 @@ const Home = () => {
                         <span className="sr-only">Next</span>
                     </a>
                 </div>
-                <div className="container mt-5" style={{marginBottom: "100px"}}>
+                <div className="container mt-5">
                     <div className="row no-gutters">
                         <div className="col-12 col-lg-6">
                             <div className="home-container-description">
@@ -115,8 +115,8 @@ const Home = () => {
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/instructorado">
-                            <div className="home-category-box">
-                                <h1>Instructorado</h1>
+                            <div className="home-category-box button-instru">
+                                
                             </div>
                             </Link>
                         </div>

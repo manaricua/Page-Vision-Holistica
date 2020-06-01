@@ -7,7 +7,7 @@ const Header = ({active}) => {
 
   return (
     <nav className="navbar navbar-expand-xl navbar-dark">
-      <a className="navbar-brand" href="#" style={{fontSize: "28px"}}>Visión Holística</a>
+      <a className="navbar-brand" href="/" style={{fontSize: "28px"}}>Visión Holística</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -21,9 +21,9 @@ const Header = ({active}) => {
             <a className="nav-link" href="/nosotros">Nosotros</a>
           </li>
           <li className={`nav-item dropdown btn btn-dark ${active==="terapeutic" ? "active" : ""}`}>
-            <a className="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div className="nav-link header-button" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Terapeutica
-            </a>
+            </div>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link to="/psicologia" className="dropdown-item">Piscología</Link>
               <a className="dropdown-item" href="/acupuntura">Acupuntura</a>
@@ -32,16 +32,16 @@ const Header = ({active}) => {
             </div>
           </li>
           <li className={`nav-item dropdown btn btn-dark ${active==="practice" ? "active" : ""}`}>
-            <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div className="nav-link header-button" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Practicas
-            </a>
+            </div>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <a className="dropdown-item" href="/taichichuan">Taijiquan (taichichuan)</a>
               <a className="dropdown-item" href="/chikung">Qigong (chikung)</a>
             </div>
           </li>
           <li className="nav-item btn btn-dark">
-            <a className="nav-link" href="#">Instructorado Qigong</a>
+            <a className="nav-link" href="/instructorado">Instructorado Qigong</a>
             
           </li>
           <li className={`nav-item btn btn-dark ${active==="lecture" ? "active" : ""}`}>

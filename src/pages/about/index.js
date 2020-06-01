@@ -6,14 +6,13 @@ import Footer from '../../components/footer';
 import './style.css';
 
 import slider1 from '../../assets/about/slider1.jpg';
-import perfil from '../../assets/about/perfil.jpg';
 
 const About = () => {
     return (
         <div className="page-container">
             <div className="content-wrap">
                 < Header active="about"/>
-                <img src={slider1} className="about-perfil-img box-shadow"/>
+                <img src={slider1} className="about-perfil-img box-shadow" alt="casa"/>
                 <div className="container text text-about">
                     <div className="text-right mt-5">
                         <h2>LA CASA</h2>
@@ -45,13 +44,12 @@ const About = () => {
                         vieja y nueva al mismo tiempo. Para que sus puertas, que siempre estuvieron abiertas,
                         hoy sean el umbral hacia otras vivencias.
                     </p>
-                    <p className="sangria text-justify mb-5">
+                    <p className="sangria text-justify">
                         Conociendo la casa desde muchos años atrás, esto es lo que pude sentir
                         cuando volví a transitarla como Visión Holística. El espacio es el que fue. Sin embargo,
                         también es nuevo y vital. Algo fluye y algo permanece y en ese cruce se nos hace
                         posible encontrarnos con el conocimiento y la práctica amable que buscamos.
                     </p>
-                    {/* <img src={perfil} className="about-perfil-img mb-5"/> */}
                 </div>
             </div>
             <Footer />

@@ -70,7 +70,7 @@ const Chickung = () => {
                         consciente del Qi.
                     </p>
                     <h2 className="mt-5 text-center">Escuela WUWEI MDP – Taijiquan Qigong</h2>
-                    <img src={logo} class="logo-practice mb-5 box-shadow"/>
+                    <img src={logo} class="logo-practice mb-3 box-shadow" alt="logo"/>
                 </div>
             </div>
             <Footer />

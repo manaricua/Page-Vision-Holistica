@@ -144,3 +144,12 @@
 .slicknav_menu {
 	display: none;
 }
+
+.header-button {
+	font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    font-family: "Quantico", sans-serif;
+}

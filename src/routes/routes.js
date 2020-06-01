@@ -11,6 +11,7 @@ import Taichichuan from '../pages/taichichuan/';
 import Chickung from '../pages/chickung/';
 import Lecture from '../pages/lecture/';
 import About from '../pages/about/';
+import Instructorate from '../pages/instructorate/';
 
 const Routes = () => {
   
@@ -27,6 +28,7 @@ const Routes = () => {
                 <Route path='/chikung' exact component={Chickung}/>
                 <Route path='/grupo-lectura' exact component={Lecture}/>
                 <Route path='/nosotros' exact component={About}/>
+                <Route path='/instructorado' exact component={Instructorate}/>
             </Switch>
         </BrowserRouter>
     );

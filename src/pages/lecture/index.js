@@ -12,7 +12,7 @@ const Lecture = () => {
         <div className="page-container">
             <div className="content-wrap">
                 < Header active="lecture"/>
-                <img src={slider1} className="lecture-img box-shadow"/>
+                <img src={slider1} className="lecture-img box-shadow" alt="libros"/>
                 <div className="container text">
                     <h1 className="mt-4 text-center mb-4">¿En qué consiste El Cuarto Camino?</h1>
                     <p className="sangria text-justify">
@@ -64,7 +64,7 @@ const Lecture = () => {
                             acercamiento a los conceptos esenciales a partir de la lectura a la letra de las
                             fuentes primarias.
                     </p>
-                    <p className="pl-4 text-justify" style={{marginBottom: "77px"}}>
+                    <p className="pl-4 text-justify">
                         <span style={{fontSize: "80px"}}>.  </span>
                             Por otro y simultáneamente un aspecto vivencial, ya que la dinámica de un
                             grupo nos despierta inexorablemente nuestro mundo interno volviéndose
