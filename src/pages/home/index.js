@@ -73,9 +73,11 @@ const Home = () => {
                     <div className="row no-gutters home-buttons">
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/psicologia">
+                            
                             <div className="home-category-box button-psico">
-                                <h1>Psicología</h1>
+                            
                             </div>
+                            <h3 className="text-center">Psicología</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">

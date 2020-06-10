@@ -14,15 +14,12 @@ const Instructorate = () => {
                 <div id="carouselExampleIndicators" className="carousel slide box-shadow carousel-secondary" data-ride="carousel">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active instru-carousel-item-img-1">
-                        </div>
-                        <div className="carousel-item instru-carousel-item-img-2">
                         </div>
                         <div className="carousel-item instru-carousel-item-img-3">
                         </div>
@@ -46,7 +43,7 @@ const Instructorate = () => {
                     <p className="sangria text-justify">
                         El objetivo de la Formación de Instructores en Qigong es adquirir
                     los fundamentos teóricos de la Medicina Tradicional China que
-                    sustentan el Qigong (ABRIR ENLACE) como herramienta de
+                    sustentan el <Link to="/chikung" > Qigong</Link> como herramienta de
                     sanación, y la práctica de Series Clásicas que son reconocidas en
                     el mundo por sus cualidades terapéuticas.
                     </p>
@@ -80,19 +77,20 @@ const Instructorate = () => {
                         Material teórico y enlace a bibliografía de consulta.
                     </p>
 
-                    <h3 className="mt-3"><u>A distancia (destinado a no residentes en Mar del Plata)</u></h3>
-                    <p className="sangria">
-                        <span style={{fontSize: "80px"}}>.  </span>
-                        Material teórico y enlace a bibliografía de consulta.
-                    </p>
-                    <p className="sangria">
-                        <span style={{fontSize: "80px"}}>.  </span>
-                        Prácticas con seguimiento online y corrección periódica.
-                    </p>
+                    <h3 className="mt-3 mb-3"><u>A distancia</u></h3>
+                    <ul className="pl-5">
+                        <li>
+                            <p>Material teórico y enlace a bibliografía de consulta.</p>
+                        </li>
+                        <li>
+                            <p>Prácticas con seguimiento online y corrección periódica.</p>
+                        </li>
+                    </ul>
+                    <p className="text-left mt-4 pl-5">(Destinado a no residentes en Mar del Plata)</p>
 
-                    <h1 className="mt-5 text-center">Programa General</h1>
-                    <h3 className="mt-3"><u>1º AÑO</u></h3>
-                    <b>Teoria</b>
+                    <h1 className="mt-5 mb-5 text-center">Programa General</h1>
+                    <h2 className="mt-3 mb-3 text-center"><u>1º AÑO</u></h2>
+                    <b>Teoría</b>
                     <ul className="pl-5">
                         <li>
                             <p>Conceptos básicos Qi, Qi Gong</p>
@@ -113,10 +111,10 @@ const Instructorate = () => {
                             <p>Ocho vasos maravillosos: Du Mai y Ren Mai</p>
                         </li>
                         <li>
-                            <p>Orbita microcósmica</p>
+                            <p>Órbita microcósmica</p>
                         </li>
                     </ul>
-                    <b>Practica</b>
+                    <b>Práctica</b>
                     <ul className="pl-5">
                         <li>
                             <p>La postura: fundamentación</p>
@@ -137,11 +135,11 @@ const Instructorate = () => {
                             <p>Zang Zhuan: Posturas estáticas</p>
                         </li>
                     </ul>
-                    <h3 className="mt-5"><u>2º AÑO</u></h3>
+                    <h2 className="mt-5 mb-3 text-center"><u>2º AÑO</u></h2>
                     <b>Teoría</b>
                     <ul className="pl-5">
                         <li>
-                            <p>Los 5 Reinos / Movimientos. Agua, Madera, Fuego Tierra, Metal: desarrollo y regulación preventiva (1 por encuentro).</p>
+                            <p>Los 5 Reinos / Movimientos. Agua, Madera, Fuego Tierra, Metal: desarrollo y regulación preventiva (1 por encuentro)</p>
                         </li>
                         <li>
                             <p>Ciclos de Generación y Control</p>
@@ -150,10 +148,10 @@ const Instructorate = () => {
                             <p>La No Forma: 8 Vasos Maravillosos. Octograma de Fushi</p>
                         </li>
                         <li>
-                            <p>Introducción a los circuitos del Organigrama Energético en el hombre.</p>
+                            <p>Introducción a los circuitos del Organigrama Energético</p>
                         </li>
                     </ul>
-                    <b>Practica</b>
+                    <b>Práctica</b>
                     <ul className="pl-5">
                         <li>
                             <p>Taiji Qigong Shi Ba Shi (2 parte)</p>
@@ -168,9 +166,11 @@ const Instructorate = () => {
                             <p>Regulación desde la práctica de los 5 Reinos</p>
                         </li>
                         <li>
-                            <p>Meditación- Nei Dan.</p>
+                            <p>Meditación- Nei Dan</p>
                         </li>
                     </ul>
+                    <p className="mt-5 text-center mail mb-2">INFORMES E INSCRIPCIÓN</p>
+                    <p className="text-center mail">instructoradodeqigong@gmail.com</p>
                 </div>
             </div>
             <Footer />

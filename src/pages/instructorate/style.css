@@ -13,3 +13,14 @@
 .instru-carousel-item-img-5 {
     background: url('../../assets/instructorate/slider5.jpg');
 }
+
+@media (max-width: 990px) {
+    .mail {
+        font-size: 18px !important;
+    }
+}
+@media (min-width: 991px) {
+    .mail {
+        font-size: 38px !important;
+    }
+}
