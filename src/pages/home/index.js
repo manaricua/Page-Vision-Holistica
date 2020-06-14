@@ -20,6 +20,8 @@ const Home = () => {
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active carousel-item-img-1">
@@ -33,6 +35,10 @@ const Home = () => {
                         <div className="carousel-item carousel-item-img-3">
                         </div>
                         <div className="carousel-item carousel-item-img-4">
+                        </div>
+                        <div className="carousel-item carousel-item-img-5">
+                        </div>
+                        <div className="carousel-item carousel-item-img-6">
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

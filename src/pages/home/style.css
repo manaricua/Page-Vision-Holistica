@@ -1,17 +1,22 @@
 /* Slider */
 
 .carousel-item-img-1 {
-    background: url('../../assets/home/slider/SLIDER1.JPG');
+    background: url('../../assets/home/slider/slider1.jpg');
 }
 .carousel-item-img-2 {
-    background: url('../../assets/home/slider/SLIDER2.JPG');
+    background: url('../../assets/home/slider/slider2.jpg');
 }
 .carousel-item-img-3 {
-    background: url('../../assets/home/slider/SLIDER3.JPG');
+    background: url('../../assets/home/slider/slider3.jpg');
 }
-
 .carousel-item-img-4 {
-    background: url('../../assets/home/slider/SLIDER4.JPG');
+    background: url('../../assets/home/slider/slider4.jpg');
+}
+.carousel-item-img-5 {
+    background: url('../../assets/home/slider/slider5.jpg');
+}
+.carousel-item-img-6 {
+    background: url('../../assets/home/slider/slider6.jpg');
 }
 
 .home-img-description {
@@ -93,120 +98,4 @@
 }
 .button-instru {
     background-image: url('../../assets/home/buttonInstru.jpg');
-    
 }
-.button-instru h1 {
-    
-}
-
-/* OLD Index */
-/*
-.carousel-item {
-    height: 600px;
-}
-
-.first-slide{
-    background: url('../../assets/visionholistica/frente-verano.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-.second-slide{
-    background: url('../../assets/psicologia/P1110627.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-.third-slide{
-    background: url('../../assets/quienesomos/P1110644.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.home-description {
-    margin-top: 40px;
-}
-
-.home-description p {
-    text-align: justify;
-    text-indent: 2em;
-}
-
-.home-title {
-    text-align: center;
-    color: green;
-    font-family: monospace !important;
-}
-
-@media (min-width: 992px) {
-    .home-title {
-        font-size: 36px;
-    }
-    .home-des-img-1 div, .home-des-img-2 div{
-        margin: 0 0 20px 20px;
-    }
-    .home-des-img-2 div {
-        margin: 0px 20px 20px 0px;
-    }
-    .home-des-text-1, .home-des-text-3 {
-        padding-right: 20px !important;
-    }
-    .home-des-text-2 {
-        padding-left: 20px !important;
-    }
-}
-@media (max-width: 991px) {
-    .home-title {
-        font-size: 28px;
-    }
-    .home-description p {
-        font-size: 14px;
-    }
-    .home-description p {
-        margin: 20px 0px;
-    }
-    .home-des-text-1 {
-        order: 1;
-    }
-    .home-des-img-1 {
-        order: 2;
-    }
-    .home-des-text-2 {
-        order: 3;
-    }
-    .home-des-img-2 {
-        order: 4;
-    }
-    .home-des-text-3 {
-        order: 5;
-    }
-    .home-des-img-3 {
-        order: 6;
-    }
-}
-
-.home-des-img-1 div {
-    background-image: url('../../assets/chinesemedicine.jpg') ;
-    height: 150px;
-}
-
-.home-des-img-2 div {
-    height: 100%;
-    min-height: 300px;
-    background-image: url('../../assets/7chackras.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.home-des-img-3 div {
-    height: 100%;
-    min-height: 300px;
-    margin: 0 25%;
-    background-image: url('../../assets/manos.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center none;
-}
-*/
