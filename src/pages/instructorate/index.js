@@ -62,21 +62,21 @@ const Instructorate = () => {
                     </p>
                     <h1 className="mt-5 text-center">Modalidad de Cursada</h1>
                     <h3 className="mt-3"><u>Presencial</u></h3>
-                    <p className="sangria mb-0">
-                        <span style={{fontSize: "80px"}}>.  </span>
-                        Recorrido de 10 módulos mensuales TEORICO- PRACTICOS de 5 horas.
-                    </p>
-                    <p className="sangria mb-0">
-                        <span style={{fontSize: "80px"}}>.  </span>
-                        Prácticas semanales libres
-                        <Link to="/chikung" style={{color: "rgb(63, 0, 99)"}}> Qigong</Link> y
-                        <Link to="/taichichuan" style={{color: "rgb(63, 0, 99)"}}> Taijiquan</Link>
-                    </p>
-                    <p className="sangria mb-5">
-                        <span style={{fontSize: "80px"}}>.  </span>
-                        Material teórico y enlace a bibliografía de consulta.
-                    </p>
-
+                    <ul>
+                        <li>
+                            <p>Recorrido de 10 módulos mensuales TEORICO- PRACTICOS de 5 horas.</p>
+                        </li>
+                        <li>
+                            <p>
+                                Prácticas semanales libres
+                                <Link to="/chikung"> Qigong</Link> y
+                                <Link to="/taichichuan"> Taijiquan</Link>
+                            </p>
+                        </li>
+                        <li>
+                            <p>Material teórico y enlace a bibliografía de consulta.</p>
+                        </li>
+                    </ul>
                     <h3 className="mt-3 mb-3"><u>A distancia</u></h3>
                     <ul className="pl-5">
                         <li>

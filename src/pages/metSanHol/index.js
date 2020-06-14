@@ -38,7 +38,7 @@ const MetSanHol = () => {
                         PSÍQUICO-EMOCIONAL. Conjuga:
                     </p>
                     <p className="text-justify">
-                        - <Link to="/psicologia" style={{color: "rgb(63, 0, 99)"}}>PSICOLOGÍA HOLÍSTICA</Link>. A través de la PALABRA se busca la ampliación de la consciencia
+                        - <Link to="/psicologia">PSICOLOGÍA HOLÍSTICA</Link>. A través de la PALABRA se busca la ampliación de la consciencia
                         respecto del conflicto presente del consultante, promoviendo la observación del mundo
                         interno y las dimensiones que lo constituyen (esencia, consciencia, cuerpo emocional y
                         mental). La implementación de diversas técnicas como la MEDITACIÓN y la
@@ -47,7 +47,7 @@ const MetSanHol = () => {
                         silencio, la paz, la vacuidad, la presencia plena.
                     </p>
                     <p className="text-justify">
-                        - <Link to="/acupuntura" style={{color: "rgb(63, 0, 99)"}}>ACUPUNTURA</Link>. A través de esta herramienta de la Medicina Tradicional China, se trabaja en
+                        - <Link to="/acupuntura">ACUPUNTURA</Link>. A través de esta herramienta de la Medicina Tradicional China, se trabaja en
                         el origen energético de la manifestación sufriente. Esta técnica actúa en una profundidad, que
                         por nuestro actual estado de consciencia, no es sencillo acceder por vía de la palabra y la
                         observación

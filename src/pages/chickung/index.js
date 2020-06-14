@@ -43,17 +43,25 @@ const Chickung = () => {
                         alcances de la práctica, lo que implica:
                     </p>
                     <p className="pl-5 text-justify">
-                        <span style={{fontSize: "80px"}}>.  </span> El cultivo de la INTENCIÓN para generar ese MOVIMIENTO
-                        CONSCIENTE HACIA LA MAESTRÍA, que también involucra la
-                        posibilidad de expansión hacia una disponibilidad creativa,
-                        desarrollando un proceso de sanación a través del fluir de la Esencia
-                        Vital para mantener la FORMA y purificándola para ese retorno a la NO
-                        FORMA.
+                        <ul>
+                            <li>
+                            El cultivo de la INTENCIÓN para generar ese MOVIMIENTO
+                            CONSCIENTE HACIA LA MAESTRÍA, que también involucra la
+                            posibilidad de expansión hacia una disponibilidad creativa,
+                            desarrollando un proceso de sanación a través del fluir de la Esencia
+                            Vital para mantener la FORMA y purificándola para ese retorno a la NO
+                            FORMA.
+                            </li>
+                        </ul>
                     </p>
                     <p className="pl-5 text-justify">
-                        <span style={{fontSize: "80px"}}>.  </span> La capacidad de conectar con el NO MOVIMIENTO EXTERNO para
-                        desarrollar la contemplación, observar el MOVIMIENTO INTERNO,
-                        percibir esa UNION CON EL TODO.
+                        <ul>
+                            <li>
+                            La capacidad de conectar con el NO MOVIMIENTO EXTERNO para
+                            desarrollar la contemplación, observar el MOVIMIENTO INTERNO,
+                            percibir esa UNION CON EL TODO.
+                            </li>
+                        </ul>
                     </p>
                     <p className="sangria text-justify">
                         Desde la Cosmovisión de La Tradición Oriental se trata de la posibilidad de

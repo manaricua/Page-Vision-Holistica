@@ -79,60 +79,52 @@ const Home = () => {
                     <div className="row no-gutters home-buttons">
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/psicologia">
-                            
-                            <div className="home-category-box button-psico">
-                            
+                            <div className="home-category-box">
+                                <div className="button-psico" />
                             </div>
                             <h3 className="text-center">Psicología</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/acupuntura">
-                            <div className="home-category-box button-acup">
-                                <h1>Acupuntura</h1>
-                            </div>
+                            <div className="home-category-box button-acup" />
+                            <h3 className="text-center">Acupuntura</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/metodo-sanacion-holistico">
-                            <div className="home-category-box button-metod">
-                                <h1>Metodo Sanación Holístico</h1>
-                            </div>
+                            <div className="home-category-box button-metod" />
+                            <h3 className="text-center">Metodo Sanación Holístico</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/masajes">
-                            <div className="home-category-box button-masaj">
-                                <h1>Masajes</h1>
-                            </div>
+                            <div className="home-category-box button-masaj" />
+                            <h3 className="text-center">Masajes</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/taijiquan">
-                            <div className="home-category-box button-taichi">
-                                <h1>Taijiquan (taichichuan)</h1>
-                            </div>
+                            <div className="home-category-box button-taichi" />
+                            <h3 className="text-center">Taijiquan (taichichuan)</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/qigong">
-                            <div className="home-category-box button-qui">
-                                <h1>Qigong (chikung)</h1>
-                            </div>
+                            <div className="home-category-box button-qui" />
+                            <h3 className="text-center">Qigong (chikung)</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/instructorado">
-                            <div className="home-category-box button-instru">
-                                
-                            </div>
+                            <div className="home-category-box button-instru" />
+                            <h3 className="text-center">Instructorado</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/grupo-lectura">
-                            <div className="home-category-box button-lect">
-                                <h1>Grupo de Lectura</h1>
-                            </div>
+                            <div className="home-category-box button-lect" />
+                            <h3 className="text-center">Grupo de Lectura</h3>
                             </Link>
                         </div>
                     </div>

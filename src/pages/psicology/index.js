@@ -36,7 +36,7 @@ const Psicology = () => {
                     <p className="sangria text-justify">
                         Es importante mencionar que esta Rama de Sanación está fuertemente atravesada por los
                         referenciales que atraviesan a VISION HOLISTICA como perspectiva a través de la cual se concibe al
-                        Ser Humano, al Cosmos y a la Sanación: <Link to="/vision-holistica" style={{color: "rgb(63, 0, 99)"}}> El Cuarto Camino</Link> y la <Link to="/vision-holistica" style={{color: "rgb(63, 0, 99)"}}> Medicina Tradicional China.</Link>
+                        Ser Humano, al Cosmos y a la Sanación: <Link to="/vision-holistica"> El Cuarto Camino</Link> y la <Link to="/vision-holistica"> Medicina Tradicional China.</Link>
                     </p>
                     <p className="sangria text-justify">
                         El “HOLOS” de nuestra psicología considera la MULTIDIMENSIÓN en la que habita el Ser: Cuerpo
@@ -77,7 +77,7 @@ const Psicology = () => {
                     </p>
                     <p className="sangria text-justify">
                         Si el consultante lo requiere, en el mismo encuadre de la sesión, puede trabajar con su cuerpo
-                        energético a través de la <Link to="/acupuntura" style={{color: "rgb(63, 0, 99)"}}>Acupuntura.</Link>
+                        energético a través de la <Link to="/acupuntura" >Acupuntura.</Link>
                     </p>
                 </div>
             </div>

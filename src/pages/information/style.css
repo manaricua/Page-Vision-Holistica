@@ -15,4 +15,8 @@
 }
 .info-carousel-item-img-2 {
     background: url('../../assets/information/slider2.jpg');
+    max-height: 450px !important;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }

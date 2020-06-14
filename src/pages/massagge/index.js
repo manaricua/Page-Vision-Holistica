@@ -14,11 +14,14 @@ const Massagge = () => {
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active massa-carousel-item-img-1">
                         </div>
                         <div className="carousel-item massa-carousel-item-img-2">
+                        </div>
+                        <div className="carousel-item massa-carousel-item-img-3">
                         </div>
                     </div>
                     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -58,16 +61,6 @@ const Massagge = () => {
                         posibilitando no una eliminación de éste, sino una trascendencia por vía del
                         autoconocimiento.
                     </p>
-                    <div className="text-right mt-5">
-                        <h5>PROFESIONAL</h5>
-                        <p className="mb-0">
-                            María Mendiburu - Lic. en Psicología - Mat. 47339.
-                        </p>
-                        <p>
-                            Terapeuta en Medicina Tradicional China e
-                            instructora de Tai Chi Chuan y Chi Kung.
-                        </p>
-                    </div>
                 </div>
             </div>
             <Footer />

@@ -24,15 +24,17 @@ const Lecture = () => {
                         Se basa en la creencia de que el ser humano necesita un método para despertar a
                         través de:
                     </p>
-                    <p className="sangria text-justify mb-0">
-                        <span style={{fontSize: "80px"}}>.  </span> Autoconocimiento
-                    </p>
-                    <p className="sangria text-justify mb-0">
-                        <span style={{fontSize: "80px"}}>.  </span> Atención Consciente
-                    </p>
-                    <p className="sangria text-justify mb-0">
-                        <span style={{fontSize: "80px"}}>.  </span> El Recuerdo de Si
-                    </p>
+                    <ul className="pl-5">
+                        <li>
+                            <p>Autoconocimiento</p>
+                        </li>
+                        <li>
+                            <p>Atención Consciente</p>
+                        </li>
+                        <li>
+                            <p>El Recuerdo de Si</p>
+                        </li>
+                    </ul>
                     <p className="sangria text-justify mt-4">
                         El Camino busca despertar del sueño que el estado de vigilia supone, esto es, del
                         condicionamiento externo de nuestro mundo interno.
@@ -59,17 +61,23 @@ const Lecture = () => {
                         Se trata de un grupo de lectura de carácter horizontal que trabaja en dos dimensiones:
                     </p>
                     <p className="pl-4  text-justify">
-                        <span style={{fontSize: "80px"}}>.  </span>
+                        <ul>
+                            <li>
                             Por un lado, un aspecto de conocimiento, dado que consiste en un
                             acercamiento a los conceptos esenciales a partir de la lectura a la letra de las
                             fuentes primarias.
+                            </li>
+                        </ul>
                     </p>
                     <p className="pl-4 text-justify">
-                        <span style={{fontSize: "80px"}}>.  </span>
+                        <ul>
+                            <li>
                             Por otro y simultáneamente un aspecto vivencial, ya que la dinámica de un
                             grupo nos despierta inexorablemente nuestro mundo interno volviéndose
                             propicio para el ejercicio de la observación interna, el recuerdo de si, la des-
                             identificación, el silencio y el respeto por el otro en todas sus dimensiones.
+                            </li>
+                        </ul>
                     </p>
                 </div>
             </div>

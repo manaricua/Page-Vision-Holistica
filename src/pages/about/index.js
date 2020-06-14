@@ -13,8 +13,8 @@ const About = () => {
     return (
         <div className="page-container">
             <div className="content-wrap">
-                < Header active="about"/>
-                <img src={slider1} className="about-perfil-img box-shadow" alt="casa"/>
+                < Header active="about" />
+                <img src={slider1} className="about-perfil-img box-shadow" alt="casa" />
                 <div className="container text text-about">
                     <div className="text-right mt-5">
                         <h2>LA CASA</h2>
@@ -52,50 +52,89 @@ const About = () => {
                         también es nuevo y vital. Algo fluye y algo permanece y en ese cruce se nos hace
                         posible encontrarnos con el conocimiento y la práctica amable que buscamos.
                     </p>
-                
-                    <div className="row no-gutters">
-                        <div className="col-12 col-sm-4">
-                            <img src={perfilMaria} className="perfil"/>
+
+                    <div className="row no-gutters mt-5">
+                        <div className="col-12 col-sm-4 pr-3">
+                            <img src={perfilMaria} className="perfil-img" />
                         </div>
                         <div className="col-12 col-sm-8">
-                            <h2 className="pl-5">Maria Mendiburu</h2>
+                            <h2 className="perfil-name">María Mendiburu</h2>
+                            <hr className="perfil-line" />
                             <p className="sangria text-justify">
-                            La Licenciada en Psicología Maria Mendiburu (Mat. 47339) se graduó en la
-                            Universidad Nacional de Mar del Plata en el año 2012 y desde el 2013 realiza
-                            la atención en Consultorio particular.
+                                La Licenciada en Psicología Maria Mendiburu (Mat. 47339) se graduó en la
+                                Universidad Nacional de Mar del Plata en el año 2012 y desde el 2013 realiza
+                                la atención en Consultorio particular.
                             </p>
                             <p className="sangria text-justify">
-                            En el 2013 funda y codirige Visión Holística: Espacio de sanación Integral.
-                            Se desarrolla como practicante de Taijiquan y Qigong desde el año 2014,
-                            completando su formación como Instructora en ambas disciplinas en el 2017 y
-                            aplicando los conocimientos en la atención de su consultorio particular.
-                            En el 2018 finalizó su formación como Terapeuta en Medicina Tradicional
-                            China en la Escuela NEIJING, Mar del Plata, en una búsqueda por profundizar
-                            en los aspectos energéticos de la psique del hombre. Se desempeña como
-                            terapeuta en Acupuntura desde entonces.
+                                En el 2013 funda y codirige Visión Holística: Espacio de sanación Integral.
+                                Se desarrolla como practicante de Taijiquan y Qigong desde el año 2014,
+                                completando su formación como Instructora en ambas disciplinas en el 2017 y
+                                aplicando los conocimientos en la atención de su consultorio particular.
+                                En el 2018 finalizó su formación como Terapeuta en Medicina Tradicional
+                                China en la Escuela NEIJING, Mar del Plata, en una búsqueda por profundizar
+                                en los aspectos energéticos de la psique del hombre. Se desempeña como
+                                terapeuta en Acupuntura desde entonces.
                             </p>
                             <p className="sangria text-justify">
-                            Realiza la coordinación de grupo de técnicas de meditación desde el 2015 y la
-                            coordinación de grupos de lectura desde el 2018.
+                                Realiza la coordinación de grupo de técnicas de meditación desde el 2015 y la
+                                coordinación de grupos de lectura desde el 2018.
                             </p>
                             <p className="sangria text-justify">
-                            Dedicada a la investigación de dos grandes cosmovisiones: la Medicina tradicional
-                            China y el Cuarto camino se propone una mirada de la psiquis humana diferente a la
-                            académica que deja por fuera la dimensión espiritual y energética.
+                                Dedicada a la investigación de dos grandes cosmovisiones: la Medicina tradicional
+                                China y el Cuarto camino se propone una mirada de la psiquis humana diferente a la
+                                académica que deja por fuera la dimensión espiritual y energética.
                             </p>
                             <p className="sangria text-justify">
-                            A partir de la creación del Método de Sanación Integral que conjuga la acupuntura
-                            con la psicología holística brinda una mirada de la psiquis humana diferente, ahora
-                            desde una perspectiva oriental que apunta fundamentalmente a restablecer el
-                            equilibrio del cuerpo energético del hombre, permitiendo un nuevo acercamiento a las
-                            mal llamadas enfermedades mentales.
+                                A partir de la creación del Método de Sanación Integral que conjuga la acupuntura
+                                con la psicología holística brinda una mirada de la psiquis humana diferente, ahora
+                                desde una perspectiva oriental que apunta fundamentalmente a restablecer el
+                                equilibrio del cuerpo energético del hombre, permitiendo un nuevo acercamiento a las
+                                mal llamadas enfermedades mentales.
                             </p>
                         </div>
-                        <div className="col-12 col-sm-4">
-                            <img src={perfilEva} className="perfil"/>
+                    </div>
+                    <hr/>
+                    <div className="mt-5 row no-gutters">
+                        <div className="col-12 col-sm-4 pr-3">
+                            <img src={perfilEva} className="perfil-img" />
                         </div>
                         <div className="col-12 col-sm-8">
-                            <h2 className="pl-5">Evangelina</h2>
+                            <h2 className="perfil-name" >Evangelina</h2>
+                            <hr className="perfil-line" />
+                            <p className="sangria text-justify">
+                                La profesora Evangelina Hamerler , (alumna directa de Sifu Horacio Di Renzo
+                                Asociación Kai Men Kung Fu, Buenos Aires) en el 2003 comienza su entrenamiento
+                                marcial e instrucción siendo los estilos recorridos Kung Fu Choy Li Fut, Shaolin, Taiji
+                                Quan (Tai chi chuan) estilo Yang tradicional, Bagua Quan(Pa kua) y Qi Gong (Chi
+                                Kung).
+                            </p>
+                            <p className="sangria text-justify">
+                                En el año 2009 conforma la sede local de Kai Men Taichi Mar del Plata, Por fuera de la
+                                Escuela ha realizado prácticas de Aikido y también de autoconocimiento como BMC,
+                                Feldrenkrais (practicante), danza-improvisación, etc.
+                                Es profesora de Teatro graduada en la UNICEN (Tandil) en el año 1996.
+                                Actualmente se desempeña en la ciudad desde el año 2009 con la enseñanza de Taiji
+                                Quan (Tai chi chuan) estilo Yang tradicional, Bagua Quan(Pa kua) y Qi Gong (Chi
+                                Kung) y ha transitado por grupos terapéuticos, Centro de Día, etc. y en el ámbito
+                                educativo.
+                            </p>
+                            <p className="sangria text-justify">
+                                Se desempeña también como Terapeuta de Medicina Tradicional China, recibida
+                                desde el 2018 en la Escuela Neijing.
+                            </p>
+                            <p className="sangria text-justify">
+                                Recibida como Masajista y Masoterapeuta (Mat. 6207) desde el año 2015 desarrolla
+                                distintas técnicas integrales de sanación en su consultorio particular.
+                                A partir del año 2018 funda WUWUEI MDP, Espacio de Qi gong Formación y Práctica;
+                                dirige y coordina el Instructorado de Qigong conjugando los conocimientos marciales
+                                con la Medicina Tradicional China.
+                            </p>
+                            <p className="sangria text-justify">
+                                Junto con la Lic. Mendiburu codirige Visión Holística desde el 2013, proponiendo
+                                integrar las disciplinas Taiiquan y Qigong como herramientas no sólo de
+                                autoconocimiento, sino también de sanación para restablecer el equilibrio de los
+                                cuerpos físico, mental, energético y espiritual.
+                            </p>
                         </div>
 
                     </div>
