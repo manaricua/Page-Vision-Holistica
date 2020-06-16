@@ -107,14 +107,14 @@ const Home = () => {
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <Link to="/taijiquan">
+                            <Link to="/taichichuan">
                             <div className="home-category-box button-taichi" />
                             <h3 className="text-center">Taijiquan</h3>
                             <h3 className="text-center">(Taichichuan)</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
-                            <Link to="/qigong">
+                            <Link to="/chikung">
                             <div className="home-category-box button-qui" />
                             <h3 className="text-center">Qigong</h3>
                             <h3 className="text-center">(Chikung)</h3>
