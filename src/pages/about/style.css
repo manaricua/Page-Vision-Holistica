@@ -10,22 +10,29 @@
     width: 66vw;
 }
 
+.text-about p {
+    font-style: italic;
+}
 @media (min-width: 992px) {
     .text-about p {
       line-height : 40px !important;
-      font-style: italic;
+      
     }
   }
 
 .perfil-img {
     width: 100%;
     height: auto;
+    border: solid 1px black;
 }
 
 @media (max-width: 575px) {
     .perfil-name {
         margin-left: 0;
         margin-top: 15px;
+    }
+    .about-perfil-img {
+        width: 100%;
     }
 }
 

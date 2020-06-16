@@ -34,32 +34,31 @@ const Massagge = () => {
                     </a>
                 </div>
                 <div className="container text">
-                    <h1 className="mt-5 text-center">¿En qué consiste el METODO DE SANACIÓN HOLÍSTICO?</h1>
+                    <h1 className="mt-5 text-center">MASAJES</h1>
                     <p className="sangria text-justify">
-                        Es un proceso terapéutico enfocado fundamentalmente en los desequilibrios de carácter
-                        PSÍQUICO-EMOCIONAL. Conjuga:
-                    </p>
-                    <p className="text-justify">
-                        - PSICOLOGÍA HOLÍSTICA. A través de la PALABRA se busca la ampliación de la consciencia
-                        respecto del conflicto presente del consultante, promoviendo la observación del mundo
-                        interno y las dimensiones que lo constituyen (esencia, consciencia, cuerpo emocional y
-                        mental). La implementación de diversas técnicas como la MEDITACIÓN y la
-                        RELAJACIÓN promueven la profundización de la consciencia- observación, abriendo la
-                        posibilidad de re-conectar con ciertos estados interiores como lo son: el
-                        silencio, la paz, la vacuidad, la presencia plena.
-                    </p>
-                    <p className="text-justify">
-                        - ACUPUNTURA. A través de esta herramienta de la Medicina Tradicional China, se trabaja en
-                        el origen energético de la manifestación sufriente. Esta técnica actúa en una profundidad, que
-                        por nuestro actual estado de consciencia, no nos es sencillo acceder por vía de la palabra y la
-                        observación
+                        La terapia con masajes es una de las terapias más antiguas: se encuentran
+                        referencias en libros de medicina china de más de 4000 años y en occidente desde
+                        sus comienzos evidenció sus propiedades sanadoras.
                     </p>
                     <p className="sangria text-justify">
-                        PALABRA, OBSERVACIÓN, SILENCIO Y MOVIMIENTO ENERGÉTICO son aspectos coadyuvantes
-                        que se retroalimentan entre sí, ayudando al consultante a una ampliación de consciencia,
-                        desde la cual puedan surgir otras perspectivas frente a su mundo interno sufriente,
-                        posibilitando no una eliminación de éste, sino una trascendencia por vía del
-                        autoconocimiento.
+                        Existen diversos tipos de acuerdo a las necesidades, y todos demuestran que la
+                        manipulación manual de los tejidos con un sentido, dirección y forma establecidos
+                        relaja el cuerpo y la mente, disminuye la presión arterial y la frecuencia cardíaca,
+                        ayuda en tratamientos como depresión, estrés y síntomas de artritis y diabetes,
+                        estimula el retorno linfático y la eliminación de toxinas, mejora el estado de la piel, etc.
+                    </p>
+                    <p className="sangria text-justify">
+                        A niveles más profundos desde lo físico relaja y distiende el sistema muscular y
+                        tendinoso, haciendo que el grupo contracturado o lesionado por las diversas malas
+                        posturas, tensiones, emociones, etc, bajen el tono y se pueda encontrar una posición
+                        en la estructura ósea que lleve a que el esqueleto acompañe a la gravedad y exista
+                        menos desgaste energético en el sostén.
+                    </p>
+                    <p className="sangria text-justify">
+                        En el plano energético el masaje (y más el específicamente el masaje Qigong) que activa
+                        y desbloquea el Qi en los canales (meridianos), estimulando el
+                        equilibrio Yin/Yang siendo uno de los medios más seguros y eficaces para mantener la
+                        salud y evitar la enfermedad.
                     </p>
                 </div>
             </div>

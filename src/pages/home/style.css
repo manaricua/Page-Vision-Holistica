@@ -84,6 +84,10 @@
 }
 .button-acup {
     background-image: url('../../assets//home/buttonAcup.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
 }
 .button-metod {
     background-image: url('../../assets/home/buttonMetod.jpg');
@@ -99,7 +103,15 @@
 }
 .button-lect {
     background-image: url('../../assets/home/buttonLect.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
 }
 .button-instru {
     background-image: url('../../assets/home/buttonInstru.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
 }

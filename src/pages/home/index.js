@@ -87,7 +87,10 @@ const Home = () => {
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/acupuntura">
-                            <div className="home-category-box button-acup" />
+                            <div className="home-category-box">
+                                <div className="button-acup" />
+                            </div>
+                            
                             <h3 className="text-center">Acupuntura</h3>
                             </Link>
                         </div>
@@ -106,24 +109,30 @@ const Home = () => {
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/taijiquan">
                             <div className="home-category-box button-taichi" />
-                            <h3 className="text-center">Taijiquan (taichichuan)</h3>
+                            <h3 className="text-center">Taijiquan</h3>
+                            <h3 className="text-center">(Taichichuan)</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/qigong">
                             <div className="home-category-box button-qui" />
-                            <h3 className="text-center">Qigong (chikung)</h3>
+                            <h3 className="text-center">Qigong</h3>
+                            <h3 className="text-center">(Chikung)</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/instructorado">
-                            <div className="home-category-box button-instru" />
+                            <div className="home-category-box">
+                                <div className="button-instru" />
+                            </div>
                             <h3 className="text-center">Instructorado</h3>
                             </Link>
                         </div>
                         <div className="col-12 col-sm-6 col-lg-3">
                             <Link to="/grupo-lectura">
-                            <div className="home-category-box button-lect" />
+                            <div className="home-category-box">
+                                <div className="button-lect" />
+                            </div>
                             <h3 className="text-center">Grupo de Lectura</h3>
                             </Link>
                         </div>

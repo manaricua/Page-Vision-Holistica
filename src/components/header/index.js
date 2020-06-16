@@ -8,7 +8,7 @@ const Header = ({active}) => {
 
   return (
     <nav className="navbar navbar-expand-xl navbar-dark">
-      <img src={logo} className="logo"/>
+      <img src={logo} className="logo" alt="logo"/>
       <a className="navbar-brand" href="/" style={{fontSize: "28px"}}>Visión Holística</a>
       
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

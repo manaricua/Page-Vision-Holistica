@@ -55,7 +55,7 @@ const About = () => {
 
                     <div className="row no-gutters mt-5">
                         <div className="col-12 col-sm-4 pr-3">
-                            <img src={perfilMaria} className="perfil-img" />
+                            <img src={perfilMaria} className="perfil-img box-shadow" alt="perfil"/>
                         </div>
                         <div className="col-12 col-sm-8">
                             <h2 className="perfil-name">María Mendiburu</h2>
@@ -80,8 +80,8 @@ const About = () => {
                                 coordinación de grupos de lectura desde el 2018.
                             </p>
                             <p className="sangria text-justify">
-                                Dedicada a la investigación de dos grandes cosmovisiones: la Medicina tradicional
-                                China y el Cuarto camino se propone una mirada de la psiquis humana diferente a la
+                                Dedicada a la investigación de dos grandes cosmovisiones: la Medicina Tradicional
+                                China y el Cuarto Camino se propone una mirada de la psiquis humana diferente a la
                                 académica que deja por fuera la dimensión espiritual y energética.
                             </p>
                             <p className="sangria text-justify">
@@ -96,10 +96,10 @@ const About = () => {
                     <hr/>
                     <div className="mt-5 row no-gutters">
                         <div className="col-12 col-sm-4 pr-3">
-                            <img src={perfilEva} className="perfil-img" />
+                            <img src={perfilEva} className="perfil-img box-shadow" alt="perfil"/>
                         </div>
                         <div className="col-12 col-sm-8">
-                            <h2 className="perfil-name" >Evangelina</h2>
+                            <h2 className="perfil-name" >Evangelina Hamerler</h2>
                             <hr className="perfil-line" />
                             <p className="sangria text-justify">
                                 La profesora Evangelina Hamerler , (alumna directa de Sifu Horacio Di Renzo
@@ -109,8 +109,7 @@ const About = () => {
                                 Kung).
                             </p>
                             <p className="sangria text-justify">
-                                En el año 2009 conforma la sede local de Kai Men Taichi Mar del Plata, Por fuera de la
-                                Escuela ha realizado prácticas de Aikido y también de autoconocimiento como BMC,
+                                En el año 2009 conforma la sede local de Kai Men Taichi Mar del Plata; ha realizado prácticas de Aikido y también de autoconocimiento como BMC,
                                 Feldrenkrais (practicante), danza-improvisación, etc.
                                 Es profesora de Teatro graduada en la UNICEN (Tandil) en el año 1996.
                                 Actualmente se desempeña en la ciudad desde el año 2009 con la enseñanza de Taiji
